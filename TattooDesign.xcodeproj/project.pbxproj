@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		C32EE10F273FD8EB00B43FBC /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32EE10E273FD8EB00B43FBC /* UIColor.swift */; };
 		C32EE1112740050B00B43FBC /* SignVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32EE1102740050B00B43FBC /* SignVC.swift */; };
+		C33EF13127443562000FDC33 /* GalleryCompactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EF12F27443562000FDC33 /* GalleryCompactCell.swift */; };
+		C33EF13227443562000FDC33 /* GalleryCompactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C33EF13027443562000FDC33 /* GalleryCompactCell.xib */; };
 		C3639874273AFAFB00DB08B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3639873273AFAFB00DB08B1 /* AppDelegate.swift */; };
 		C3639876273AFAFB00DB08B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3639875273AFAFB00DB08B1 /* SceneDelegate.swift */; };
 		C3639878273AFAFB00DB08B1 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3639877273AFAFB00DB08B1 /* LoginVC.swift */; };
@@ -24,6 +26,8 @@
 /* Begin PBXFileReference section */
 		C32EE10E273FD8EB00B43FBC /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		C32EE1102740050B00B43FBC /* SignVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignVC.swift; sourceTree = "<group>"; };
+		C33EF12F27443562000FDC33 /* GalleryCompactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCompactCell.swift; sourceTree = "<group>"; };
+		C33EF13027443562000FDC33 /* GalleryCompactCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryCompactCell.xib; sourceTree = "<group>"; };
 		C3639870273AFAFB00DB08B1 /* TattooDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TattooDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3639873273AFAFB00DB08B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3639875273AFAFB00DB08B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,24 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		C33EF129274433F1000FDC33 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				C33EF12A27443404000FDC33 /* Cells */,
+				C3CF27B227430B69009B6DE6 /* GalleryVC.swift */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
+		C33EF12A27443404000FDC33 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C33EF12F27443562000FDC33 /* GalleryCompactCell.swift */,
+				C33EF13027443562000FDC33 /* GalleryCompactCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		C3639867273AFAFB00DB08B1 = {
 			isa = PBXGroup;
 			children = (
@@ -106,8 +128,8 @@
 		C3CF27B427430B6F009B6DE6 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				C33EF129274433F1000FDC33 /* Gallery */,
 				C3CF27AE2742F740009B6DE6 /* StartVC.swift */,
-				C3CF27B227430B69009B6DE6 /* GalleryVC.swift */,
 				C32EE1102740050B00B43FBC /* SignVC.swift */,
 				C3639877273AFAFB00DB08B1 /* LoginVC.swift */,
 			);
@@ -193,6 +215,7 @@
 			files = (
 				C3639880273AFAFD00DB08B1 /* LaunchScreen.storyboard in Resources */,
 				C363987D273AFAFD00DB08B1 /* Assets.xcassets in Resources */,
+				C33EF13227443562000FDC33 /* GalleryCompactCell.xib in Resources */,
 				C363987B273AFAFB00DB08B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +235,7 @@
 				C3CF27B327430B69009B6DE6 /* GalleryVC.swift in Sources */,
 				C3B3FF61273F0A48005B7773 /* CustomTextFieldClass.swift in Sources */,
 				C3CF27B12742FF4C009B6DE6 /* UILabel.swift in Sources */,
+				C33EF13127443562000FDC33 /* GalleryCompactCell.swift in Sources */,
 				C32EE10F273FD8EB00B43FBC /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
